@@ -1,0 +1,99 @@
+/**
+ * Created & Copyright 2025 by Roman Kryvolapov
+ **/
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'org.jetbrains.kotlin.kapt'
+    id 'org.jetbrains.kotlin.plugin.parcelize'
+    id 'androidx.navigation.safeargs.kotlin'
+    id 'org.jetbrains.kotlin.plugin.serialization' version "2.2.10"
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+}
+
+android {
+
+    namespace 'com.romankryvolapov.swapi'
+
+    compileSdkVersion = project.property("TERGET_SDK").toString().toInteger()
+
+    defaultConfig {
+        minSdk project.property("MIN_SDK").toString().toInteger()
+        targetSdk project.property("TERGET_SDK").toString().toInteger()
+        versionCode project.property("APP_VERSION_CODE").toString().toInteger()
+        versionName project.property("APP_VERSION_NAME").toString()
+        applicationId "com.romankryvolapov.swapi"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        manifestPlaceholders["appAuthRedirectScheme"] = "com.romankryvolapov.swapi.oauth"
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            shrinkResources false
+            debuggable true
+            jniDebuggable true
+            applicationIdSuffix ".debug"
+            versionNameSuffix "-debug"
+        }
+        release {
+            minifyEnabled true
+            shrinkResources true
+            debuggable false
+            jniDebuggable false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            proguardFile 'proguard-rules.pro'
+        }
+    }
+
+    buildFeatures {
+        viewBinding true
+        buildConfig true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlin {
+        jvmToolchain(17)
+    }
+
+}
+
+dependencies {
+
+    api project(':data')
+
+    // android
+    implementation libs.androidx.fragment.ktx
+    implementation libs.androidx.constraintlayout
+    implementation libs.androidx.lifecycle.livedata.ktx
+    implementation libs.androidx.lifecycle.viewmodel.ktx
+    implementation libs.androidx.multidex
+    implementation libs.androidx.core.splashscreen
+    implementation libs.androidx.biometric
+    implementation libs.androidx.swiperefreshlayout
+    implementation libs.review
+
+    // navigation
+    implementation libs.androidx.navigation.fragment.ktx
+    implementation libs.androidx.navigation.ui.ktx
+    implementation libs.androidx.navigation.dynamic.features.fragment
+
+    //  di
+    implementation libs.koin.androidx.navigation
+
+    // lists
+    implementation libs.adapterdelegates4
+    implementation libs.adapterdelegates4.pagination
+    implementation libs.androidx.paging.runtime
+
+    // common
+    implementation libs.mapstruct
+    kapt libs.mapstruct.processor
+
+}

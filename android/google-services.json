@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "330923779636",
+    "project_id": "offline-ai-launcher",
+    "storage_bucket": "offline-ai-launcher.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330923779636:android:c910b29d52e6e20acb4c61",
+        "android_client_info": {
+          "package_name": "com.romankryvolapov.swapi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI8-6sRCaEH3VAU409li9CL0rfw3QzeWQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330923779636:android:c910b29d52e6e20acb4c61",
+        "android_client_info": {
+          "package_name": "com.romankryvolapov.swapi.debug"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBI8-6sRCaEH3VAU409li9CL0rfw3QzeWQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

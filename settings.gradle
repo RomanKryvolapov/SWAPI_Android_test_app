@@ -1,0 +1,7 @@
+/**
+ * Created & Copyright 2025 by Roman Kryvolapov
+ **/
+rootProject.name = "SWAPI"
+include ':android'
+include ':data'
+include ':domain'

@@ -1,0 +1,98 @@
+# Created & Copyright 2025 by Roman Kryvolapov
+[versions]
+adapterdelegates4 = "4.3.2"
+appauth = "0.11.1"
+bcprovJdk15on = "1.70"
+biometric = "1.1.0"
+constraintlayout = "2.2.1"
+converterGson = "3.0.0"
+coreSplashscreen = "1.0.1"
+datastore = "1.1.7"
+firebaseCrashlyticsGradle = "3.0.4"
+fragmentKtx = "1.8.8"
+googleServices = "4.4.3"
+gradle = "8.11.1"
+gson = "2.13.1"
+javaxInject = "1"
+koinAndroid = "4.1.0"
+coreKtx = "1.16.0"
+kotlinxCoroutines = "1.10.2"
+kotlinxSerializationJson = "1.9.0"
+ktorVersion = "3.2.3"
+languageId = "17.0.6"
+lifecycleRuntimeKtx = "2.9.1"
+appcompat = "1.7.1"
+mapstruct = "1.6.3"
+material = "1.12.0"
+moshi = "1.15.2"
+moshiKotlin = "1.15.2"
+multidex = "2.0.1"
+navigationSafeArgsGradlePlugin = "2.9.1"
+navigationUiK = "2.9.1"
+okhttp = "5.1.0"
+pagingRuntime = "3.3.6"
+retrofit = "3.0.0"
+review = "2.0.2"
+securityAppAuthenticator = "1.0.0-rc01"
+securityCrypto = "1.1.0-beta01"
+securityIdentityCredential = "1.0.0-alpha03"
+swiperefreshlayout = "1.1.0"
+
+[libraries]
+
+gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+androidx-navigation-safe-args-gradle-plugin = { module = "androidx.navigation:navigation-safe-args-gradle-plugin", version.ref = "navigationSafeArgsGradlePlugin" }
+google-services = { module = "com.google.gms:google-services", version.ref = "googleServices" }
+firebase-crashlytics-gradle = { module = "com.google.firebase:firebase-crashlytics-gradle", version.ref = "firebaseCrashlyticsGradle" }
+
+adapterdelegates4 = { module = "com.hannesdorfmann:adapterdelegates4", version.ref = "adapterdelegates4" }
+adapterdelegates4-pagination = { module = "com.hannesdorfmann:adapterdelegates4-pagination", version.ref = "adapterdelegates4" }
+androidx-biometric = { module = "androidx.biometric:biometric", version.ref = "biometric" }
+androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-core-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "coreSplashscreen" }
+androidx-datastore = { module = "androidx.datastore:datastore", version.ref = "datastore" }
+androidx-fragment-ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragmentKtx" }
+androidx-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-multidex = { module = "androidx.multidex:multidex", version.ref = "multidex" }
+androidx-navigation-dynamic-features-fragment = { module = "androidx.navigation:navigation-dynamic-features-fragment", version.ref = "navigationUiK" }
+androidx-navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigationUiK" }
+
+androidx-navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigationUiK" }
+androidx-paging-runtime = { module = "androidx.paging:paging-runtime", version.ref = "pagingRuntime" }
+androidx-security-app-authenticator = { module = "androidx.security:security-app-authenticator", version.ref = "securityAppAuthenticator" }
+androidx-security-crypto = { module = "androidx.security:security-crypto", version.ref = "securityCrypto" }
+androidx-security-identity-credential = { module = "androidx.security:security-identity-credential", version.ref = "securityIdentityCredential" }
+androidx-swiperefreshlayout = { module = "androidx.swiperefreshlayout:swiperefreshlayout", version.ref = "swiperefreshlayout" }
+appauth = { module = "net.openid:appauth", version.ref = "appauth" }
+bcpkix-jdk15on = { module = "org.bouncycastle:bcpkix-jdk15on", version.ref = "bcprovJdk15on" }
+bcprov-jdk15on = { module = "org.bouncycastle:bcprov-jdk15on", version.ref = "bcprovJdk15on" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+javax-inject = { module = "javax.inject:javax.inject", version.ref = "javaxInject" }
+koin-android-compat = { module = "io.insert-koin:koin-android-compat", version.ref = "koinAndroid" }
+koin-androidx-workmanager = { module = "io.insert-koin:koin-androidx-workmanager", version.ref = "koinAndroid" }
+koin-core-coroutines = { module = "io.insert-koin:koin-core-coroutines", version.ref = "koinAndroid" }
+koin-androidx-navigation = { module = "io.insert-koin:koin-androidx-navigation", version.ref = "koinAndroid" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutines" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutines" }
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
+language-id = { module = "com.google.mlkit:language-id", version.ref = "languageId" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okhttp" }
+mapstruct = { module = "org.mapstruct:mapstruct", version.ref = "mapstruct" }
+mapstruct-processor = { module = "org.mapstruct:mapstruct-processor", version.ref = "mapstruct" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+moshi = { module = "com.squareup.moshi:moshi", version.ref = "moshi" }
+moshi-kotlin = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshiKotlin" }
+okhttp = { module = "com.squareup.okhttp3:okhttp", version.ref = "okhttp" }
+okhttp-bom = { module = "com.squareup.okhttp3:okhttp-bom", version.ref = "okhttp" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+review = { module = "com.google.android.play:review", version.ref = "review" }
+
+ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation", version.ref = "ktorVersion" }
+ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktorVersion" }
+ktor-client-logging = { module = "io.ktor:ktor-client-logging", version.ref = "ktorVersion" }
+ktor-client-okhttp = { module = "io.ktor:ktor-client-okhttp", version.ref = "ktorVersion" }
+ktor-serialization-kotlinx-json = { module = "io.ktor:ktor-serialization-kotlinx-json", version.ref = "ktorVersion" }

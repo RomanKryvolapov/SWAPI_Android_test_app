@@ -1,0 +1,39 @@
+/**
+ * Created & Copyright 2025 by Roman Kryvolapov
+ **/
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url 'https://maven.google.com'
+        }
+        maven {
+            url 'https://jitpack.io'
+        }
+    }
+    dependencies {
+        classpath libs.gradle
+        classpath libs.androidx.navigation.safe.args.gradle.plugin
+        classpath libs.google.services
+        classpath libs.firebase.crashlytics.gradle
+    }
+}
+
+plugins {
+    id 'com.google.devtools.ksp' version '2.2.0-2.0.2'
+    id 'org.jetbrains.kotlin.jvm' version '2.2.10'
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url 'https://maven.google.com'
+        }
+        maven {
+            url 'https://jitpack.io'
+        }
+    }
+}

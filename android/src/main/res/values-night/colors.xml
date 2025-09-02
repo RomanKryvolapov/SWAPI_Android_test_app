@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+
+    <color name="color_1C3050">#1C3050</color>
+    <color name="color_4A6484">#4A6484</color>
+    <color name="color_0C53B2">#0C53B2</color>
+    <color name="color_F59E0B">#F59E0B</color>
+    <color name="color_F59E0B_disabled">#80F59E0B</color>
+    <color name="color_EFF6FF">#EFF6FF</color>
+    <color name="color_E5ECF5">#E5ECF5</color>
+    <color name="color_BF1212">#BF1212</color>
+    <color name="color_BF1212_disabled">#80BF1212</color>
+    <color name="color_94A3B8">#94A3B8</color>
+    <color name="color_F5F5F5">#F5F5F5</color>
+    <color name="color_295999">#295999</color>
+    <color name="color_4C6F9E">#4C6F9E</color>
+    <color name="color_018930">#018930</color>
+    <color name="color_018930_disabled">#80018930</color>
+    <color name="color_C6D9F0">#C6D9F0</color>
+
+    <color name="color_background_splash">#000000</color>
+    <color name="color_tint_splash">#FFFFFF</color>
+
+    <color name="color_background">#000000</color>
+
+    <color name="color_background_user_message">#202020</color>
+    <color name="color_background_model_message">#202020</color>
+
+    <color name="color_background_edit_text">#555555</color>
+
+    <color name="color_background_dialog">#454545</color>
+
+    <color name="color_status_bar">#000000</color>
+    <color name="color_navigation_bar">#000000</color>
+
+    <color name="color_icon_tint">#FFFFFF</color>
+
+    <color name="color_text">#FFFFFF</color>
+    <color name="color_text_buttons">#FFFFFF</color>
+    <color name="color_text_toolbar">#FFFFFF</color>
+    <color name="color_text_banner_message">#FFFFFF</color>
+    <color name="color_text_hint">#C8C8C8</color>
+    <color name="color_text_secondary">#999999</color>
+    <color name="color_text_blue">#0096c7</color>
+    <color name="color_text_green">#6a994e</color>
+    <color name="color_text_yellow">#F59E0B</color>
+    <color name="color_text_light_green">#80FF80</color>
+
+    <color name="color_bottom_navigation_selected">#F59E0B</color>
+    <color name="color_bottom_navigation_not_selected">#FFFFFF</color>
+    <color name="color_bottom_navigation_background">#000000</color>
+
+    <color name="color_switch_not_selected_background">#555555</color>
+    <color name="color_switch_selected_background">#003566</color>
+
+    <color name="color_switch_not_selected_element">#858585</color>
+    <color name="color_switch_selected_element">#FFFFFF</color>
+
+    <color name="color_error">#880000</color>
+    <color name="color_error_light">#FF4040</color>
+    <color name="color_red">#6f1d1b</color>
+    <color name="color_green">#004700</color>
+    <color name="color_blue">#003566</color>
+
+    <color name="color_gradient_red_1">#400000</color>
+    <color name="color_gradient_red_2">#450000</color>
+    <color name="color_gradient_red_3">#500000</color>
+    <color name="color_gradient_ripple_red_1">#900000</color>
+    <color name="color_gradient_ripple_red_2">#850000</color>
+    <color name="color_gradient_ripple_red_3">#990000</color>
+
+    <color name="color_gradient_green_1">#004000</color>
+    <color name="color_gradient_green_2">#003500</color>
+    <color name="color_gradient_green_3">#005000</color>
+    <color name="color_gradient_ripple_green_1">#008000</color>
+    <color name="color_gradient_ripple_green_2">#007500</color>
+    <color name="color_gradient_ripple_green_3">#009000</color>
+
+    <color name="color_gradient_blue_1">#002560</color>
+    <color name="color_gradient_blue_2">#002055</color>
+    <color name="color_gradient_blue_3">#003570</color>
+    <color name="color_gradient_ripple_blue_1">#006790</color>
+    <color name="color_gradient_ripple_blue_2">#006085</color>
+    <color name="color_gradient_ripple_blue_3">#007599</color>
+
+    <color name="color_gradient_gray_0">#151515</color>
+    <color name="color_gradient_gray_1">#202020</color>
+    <color name="color_gradient_gray_2">#252525</color>
+    <color name="color_gradient_gray_3">#303030</color>
+    <color name="color_gradient_gray_4">#353535</color>
+    <color name="color_gradient_gray_5">#454545</color>
+    <color name="color_gradient_gray_6">#555555</color>
+    <color name="color_gradient_gray_7">#656565</color>
+    <color name="color_gradient_gray_8">#858585</color>
+
+    <color name="color_gradient_top_bar">#101040</color>
+
+    <color name="color_gradient_shadow_start">#00000000</color>
+    <color name="color_gradient_shadow_center">#00000000</color>
+    <color name="color_gradient_shadow_end">#40000000</color>
+
+    <color name="color_gradient_light_start">#00707070</color>
+    <color name="color_gradient_light_center">#00707070</color>
+    <color name="color_gradient_light_end">#30707070</color>
+
+    <color name="color_gradient_shadow_0_start">#00000000</color>
+    <color name="color_gradient_shadow_0_center">#00000000</color>
+    <color name="color_gradient_shadow_0_end">#30000000</color>
+
+    <color name="color_gradient_light_0_start">#00303030</color>
+    <color name="color_gradient_light_0_center">#00303030</color>
+    <color name="color_gradient_light_0_end">#20303030</color>
+
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_black">#000000</color>
+    <color name="color_translucent">#80FFFFFF</color>
+    <color name="color_transparent">#00FFFFFF</color>
+    <color name="color_ripple">#05000000</color>
+    <color name="color_ripple_on_background">#1A62697E</color>
+    <color name="color_ripple_on_background_mask">@color/color_white</color>
+    <color name="color_94A3B8_50_percents_transparent">#8094A3B8</color>
+
+
+
+</resources>

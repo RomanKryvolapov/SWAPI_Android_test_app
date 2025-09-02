@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_banner_view"
+    android:fitsSystemWindows="true"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    tools:ignore="UselessParent">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivBannerIcon"
+        android:layout_width="@dimen/margin_24"
+        android:layout_height="@dimen/margin_24"
+        android:layout_marginVertical="@dimen/margin_8"
+        android:layout_marginStart="@dimen/margin_8"
+        android:background="@color/color_transparent"
+        android:tint="@color/color_text_banner_message"
+        tools:src="@drawable/ic_error" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvBannerText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/margin_8"
+        android:layout_marginVertical="@dimen/margin_8"
+        android:layout_weight="1"
+        android:background="@color/color_transparent"
+        android:ellipsize="end"
+        android:maxLines="4"
+        android:singleLine="false"
+        android:textColor="@color/color_text_banner_message"
+        android:textSize="@dimen/text_size_default"
+        tools:text="@string/lorem_ipsum_size_12" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

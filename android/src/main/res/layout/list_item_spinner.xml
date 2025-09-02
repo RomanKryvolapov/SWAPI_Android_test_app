@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_dropdown"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/margin_6">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_1"
+        android:background="@color/color_background" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvValueFirstLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_4"
+        android:background="@color/color_transparent"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="2"
+        android:singleLine="true"
+        android:textColor="@color/color_text"
+        android:textSize="@dimen/text_size_default"
+        tools:text="@string/lorem_ipsum_size_3" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvValueSecondLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_transparent"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="2"
+        android:singleLine="true"
+        android:textColor="@color/color_text_hint"
+        android:textSize="@dimen/text_size_default"
+        tools:text="@string/lorem_ipsum_size_3" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvValueThirdLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_transparent"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxLines="2"
+        android:singleLine="true"
+        android:textColor="@color/color_text_hint"
+        android:textSize="@dimen/text_size_default"
+        tools:text="@string/lorem_ipsum_size_3" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,110 @@
+/**
+ * Created & Copyright 2025 by Roman Kryvolapov
+ **/
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+    id 'org.jetbrains.kotlin.kapt'
+    id 'org.jetbrains.kotlin.plugin.parcelize'
+    id 'com.google.devtools.ksp'
+    id 'org.jetbrains.kotlin.plugin.serialization' version "2.2.10"
+}
+
+Properties properties = new Properties()
+properties.load(project.rootProject.file("local.properties").newDataInputStream())
+
+android {
+
+    namespace 'com.romankryvolapov.swapi.data'
+
+    compileSdkVersion = project.property("TERGET_SDK").toString().toInteger()
+
+    defaultConfig {
+        minSdk project.property("MIN_SDK").toString().toInteger()
+        targetSdk project.property("TERGET_SDK").toString().toInteger()
+        versionCode project.property("APP_VERSION_CODE").toString().toInteger()
+        versionName project.property("APP_VERSION_NAME").toString()
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            shrinkResources false
+            debuggable true
+            jniDebuggable true
+        }
+        release {
+            minifyEnabled true
+            shrinkResources false
+            debuggable false
+            jniDebuggable false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            proguardFile 'proguard-rules.pro'
+        }
+        all {
+            buildConfigField 'String', 'AUTH_TOKEN', "\"" + properties['auth_token'] + "\""
+            buildConfigField 'String', 'DATABASE_NAME', "\"" + properties['database_name'] + "\""
+            buildConfigField 'String', 'DATABASE_PASSWORD', "\"" + properties['database_password'] + "\""
+            buildConfigField 'String', 'ENCRYPTED_SHARED_PREFERENCES_NAME', "\"" + properties['encrypted_shared_preferences_name'] + "\""
+            buildConfigField 'String', 'PROPERTY_APPLICATION_INFO_KEY', "\"" + properties['property_application_info_key'] + "\""
+            buildConfigField 'String', 'ANDROID_KEYSTORE', "\"" + properties['android_keystore'] + "\""
+            buildConfigField 'String', 'MASTER_SYMMETRIC_KEY_ALIAS', "\"" + properties['master_symmetric_key_alias'] + "\""
+            buildConfigField 'String', 'MASTER_BIOMETRIC_KEY_ALIAS', "\"" + properties['master_biometric_key_alias'] + "\""
+            buildConfigField 'String', 'MASTER_PREFERENCES_KEY_ALIAS', "\"" + properties['master_preferences_key_alias'] + "\""
+            buildConfigField 'String', 'PROPERTY_KEY_FIREBASE_TOKEN', "\"" + properties['property_key_firebase_token_eid'] + "\""
+            buildConfigField 'String', 'KEY_STORE_KEY_ALIAS', "\"" + properties['key_store_key_alias'] + "\""
+            buildConfigField 'String', 'DATASTORE_NAME', "\"" + properties['datastore_name'] + "\""
+        }
+    }
+
+    buildFeatures {
+        buildConfig true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlin {
+        jvmToolchain(17)
+    }
+
+    packaging {
+        resources.excludes.add("META-INF/**")
+    }
+
+}
+
+dependencies {
+
+    api project(':domain')
+
+    // properties
+    implementation libs.androidx.datastore
+
+    // retrofit
+    implementation libs.retrofit
+    implementation libs.converter.gson
+    implementation libs.logging.interceptor
+    implementation platform(libs.okhttp.bom)
+    implementation libs.okhttp
+
+    // security
+    implementation libs.androidx.security.crypto
+    implementation libs.androidx.security.app.authenticator
+    implementation libs.androidx.security.identity.credential
+
+    // common
+    implementation libs.mapstruct
+    kapt libs.mapstruct.processor
+    implementation libs.bcprov.jdk15on
+    implementation libs.bcpkix.jdk15on
+
+    implementation libs.ktor.client.core
+    implementation libs.ktor.serialization.kotlinx.json
+    implementation libs.ktor.client.okhttp
+    implementation libs.ktor.client.logging
+    implementation libs.ktor.client.content.negotiation
+
+}

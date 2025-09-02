@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/personsFragment">
+
+    <fragment
+        android:id="@+id/personsFragment"
+        android:name="com.romankryvolapov.swapi.ui.fragments.persons.PersonsFragment"
+        android:label="personsFragment"
+        tools:layout="@layout/fragment_persons">
+
+        <action
+            android:id="@+id/toPlanetsFragment"
+            app:destination="@id/planetFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/planetFragment"
+        android:name="com.romankryvolapov.swapi.ui.fragments.planet.PlanetFragment"
+        android:label="planetFragment"
+        tools:layout="@layout/fragment_planet">
+
+        <argument
+            android:name="planetID"
+            app:argType="integer"
+            app:nullable="false" />
+
+    </fragment>
+
+</navigation>

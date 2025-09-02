@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_4"
+    android:layout_marginBottom="@dimen/margin_4"
+    android:background="@drawable/bg_field_4"
+    android:orientation="horizontal">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tvName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_8"
+        android:layout_marginTop="@dimen/margin_8"
+        android:layout_marginBottom="@dimen/margin_8"
+        android:layout_weight="1"
+        android:background="@color/color_transparent"
+        android:ellipsize="end"
+        android:fontFamily="@font/sofia_sans_semi_bold"
+        android:maxLength="128"
+        android:singleLine="true"
+        android:textColor="@color/color_text"
+        android:textSize="@dimen/text_size_medium"
+        tools:text="@string/lorem_ipsum_size_6" />
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btnClear"
+        style="@style/ImageButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/margin_8"
+        android:background="@color/color_transparent"
+        android:src="@drawable/ic_arrow_right"
+        app:tint="@color/color_icon_tint" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

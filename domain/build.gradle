@@ -1,0 +1,87 @@
+/**
+ * Created & Copyright 2025 by Roman Kryvolapov
+ **/
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+    id 'org.jetbrains.kotlin.kapt'
+    id 'org.jetbrains.kotlin.plugin.parcelize'
+    id 'org.jetbrains.kotlin.plugin.serialization' version "2.2.10"
+}
+
+android {
+
+    namespace 'com.romankryvolapov.swapi.domain'
+
+    compileSdkVersion = project.property("TERGET_SDK").toString().toInteger()
+
+    defaultConfig {
+        minSdk project.property("MIN_SDK").toString().toInteger()
+        targetSdk project.property("TERGET_SDK").toString().toInteger()
+        versionCode project.property("APP_VERSION_CODE").toString().toInteger()
+        versionName project.property("APP_VERSION_NAME").toString()
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            shrinkResources false
+            debuggable true
+            jniDebuggable true
+        }
+        release {
+            minifyEnabled true
+            shrinkResources false
+            debuggable false
+            jniDebuggable false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            proguardFile 'proguard-rules.pro'
+        }
+    }
+
+
+    buildFeatures {
+        buildConfig true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlin {
+        jvmToolchain(17)
+    }
+
+}
+
+dependencies {
+
+    // android
+    api libs.androidx.appcompat
+    api libs.material
+
+    // di
+    api libs.koin.android.compat
+    api libs.koin.core.coroutines
+    api libs.koin.androidx.workmanager
+
+    // coroutines
+    api libs.kotlinx.coroutines.core
+    api libs.kotlinx.coroutines.android
+
+    // common
+    api libs.javax.inject
+    api libs.gson
+    api libs.kotlinx.serialization.json
+    api libs.androidx.core.ktx
+//    api 'com.squareup.leakcanary:leakcanary-android:2.14'
+
+    api libs.moshi
+    api libs.moshi.kotlin
+
+    api libs.language.id
+
+    api libs.appauth
+
+}

@@ -1,0 +1,512 @@
+<resources>
+    <string name="app_name">GitHub Repository Viewer</string>
+
+    <string name="text_about">
+        With this app you can download and run AI models on your phone.\n
+        The models do not have internet access, and are completely safe to use.\n
+        On a fast phone you can run models up to 4B in size, on a slower one - 2B.\n
+        Try to use models with Q4 quantization.\n
+        If you run a model that is too large, the application may close.\n\n
+
+        Currently supported model files:\n
+        .gguf -> with engine LLama.cpp\n
+        .task, .tflite -> only versions for MediaPipe\n\n
+
+        All rights reserved\n
+        Created by Roman Kryvolapov\n
+        roman.kryvolapov@gmail.com\n
+        Telegram: @RomanKryvolapov
+    </string>
+
+    <!-- Lorem ipsum -->
+    <string name="lorem_ipsum_size_1">Lorem ipsum</string>
+    <string name="lorem_ipsum_size_2">Lorem ipsum dolor</string>
+    <string name="lorem_ipsum_size_3">Lorem ipsum dolor sit amet</string>
+    <string name="lorem_ipsum_size_4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</string>
+    <string name="lorem_ipsum_size_5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</string>
+    <string name="lorem_ipsum_size_6">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="lorem_ipsum_size_7">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="lorem_ipsum_size_8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</string>
+    <string name="lorem_ipsum_size_9">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</string>
+    <string name="lorem_ipsum_size_10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</string>
+    <string name="lorem_ipsum_size_11">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</string>
+    <string name="lorem_ipsum_size_12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</string>
+    <string name="lorem_ipsum_size_13">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</string>
+    <string name="lorem_ipsum_size_14">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</string>
+    <string name="lorem_ipsum_size_15">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.</string>
+    <string name="lorem_ipsum_size_16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</string>
+    <string name="lorem_ipsum_size_17">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</string>
+    <string name="lorem_ipsum_size_18">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</string>
+    <string name="lorem_ipsum_size_19">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.</string>
+    <string name="lorem_ipsum_size_20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit.</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_main_tab_1">Chat</string>
+    <string name="nav_main_tab_2">History</string>
+    <string name="nav_main_tab_3">Models</string>
+    <string name="nav_main_tab_4">Settings</string>
+
+    <!-- Presets -->
+    <string name="preset_default">You are a helpful, honest, and concise AI assistant. Answer only the last question. Ignore old questions unless they are related to the last question.</string>
+
+    <!-- Common errors -->
+    <string name="error">Something went wrong</string>
+    <string name="error_loading_error">Sorry, it seems something went wrong. Please try again.</string>
+    <string name="error_server_error_short">Server error</string>
+    <string name="error_internal_error_short">Internal error</string>
+    <string name="error_server_error">Error while receiving data from the server, please try again later</string>
+    <string name="error_network_error_short">Network error</string>
+    <string name="error_network_error">Error during network request, please try again later</string>
+    <string name="error_network_not_available">No internet connection</string>
+    <string name="error_network_not_available_description">Connect to the Internet and try again</string>
+    <string name="error_invalid_format">Invalid format</string>
+    <string name="error_not_enough_characters">Not enough characters in the field.</string>
+    <string name="error_cannot_be_empty">This field cannot be empty.</string>
+    <string name="error_password_must_contain_only_numbers">Password must contain only numbers</string>
+    <string name="must_contain_only_numbers">Only numbers are allowed here</string>
+    <string name="error_empty_state_tile">Nothing found</string>
+    <string name="error_empty_state_description">Refresh the screen if content should be present</string>
+    <string name="error_no_consent_to_share_data">No consent to share data</string>
+    <string name="error_pin_code_not_setup">Pin code not setup</string>
+    <string name="error_user_not_setup_correct">User not setup</string>
+    <string name="error_user_is_not_identified">User is not identified</string>
+    <string name="error_user_name_not_found">User name not found</string>
+    <string name="error_user_email_not_found">User email not found</string>
+    <string name="error_user_phone_not_found">User phone not found</string>
+    <string name="error_user_personal_identification_number_not_found">User personal identification number not found</string>
+    <string name="error_request_is_being_processed">The request is being processed, please wait and click update</string>
+    <string name="error_server_fetch_information">We could not fetch the necessary information</string>
+
+    <!-- Blocked -->
+    <string name="error_blocked_title">Entrance blocked</string>
+    <string name="error_blocked_description">Unlock in %s seconds</string>
+
+    <!-- Common -->
+    <string name="cancel">Cancel</string>
+    <string name="exit">Exit</string>
+    <string name="back">Back</string>
+    <string name="apply">Apply</string>
+    <string name="retry">Retry</string>
+    <string name="reload">Reload</string>
+    <string name="next">Next</string>
+    <string name="proceed">Proceed</string>
+    <string name="start">Start</string>
+    <string name="hide">Hide</string>
+    <string name="show">Show</string>
+    <string name="save">Save</string>
+    <string name="close">Close</string>
+    <string name="remove">Remove</string>
+    <string name="share">Share</string>
+    <string name="select">Select</string>
+    <string name="invite">Invite</string>
+    <string name="delete">Delete</string>
+    <string name="skip">Skip</string>
+    <string name="clear">Clear</string>
+    <string name="clear_all">Clear All</string>
+    <string name="view_all">View All</string>
+    <string name="see_all">See All</string>
+    <string name="all">All</string>
+    <string name="search">Search</string>
+    <string name="edit">Edit</string>
+    <string name="edit_data">Edit data</string>
+    <string name="verify">Verify</string>
+    <string name="done">Done</string>
+    <string name="bullet">•</string>
+    <string name="confirm">Confirm</string>
+    <string name="continue_label">Continue</string>
+    <string name="optional">Optional</string>
+    <string name="unknown">Unknown</string>
+    <string name="need_help">Need help?</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="oops">Oops</string>
+    <string name="oops_with_dots">Oops…</string>
+    <string name="sorry">Sorry</string>
+    <string name="logout">Logout</string>
+    <string name="try_again">Try again</string>
+    <string name="ok">Ok</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="update">Update</string>
+    <string name="wait">Please wait...</string>
+    <string name="please_select">Моля изберете стойност</string>
+    <string name="please_input">Моля въведете стойност</string>
+    <string name="information">Information</string>
+    <string name="certificate_pause">Pause</string>
+    <string name="certificate_resume">Resume</string>
+    <string name="mobile_applicatipon">Mobile application</string>
+    <string name="certificate">Certificate</string>
+    <string name="not_specified">Not specified</string>
+    <string name="send">Send</string>
+    <string name="no_value">No value</string>
+    <string name="copy">Copy</string>
+    <string name="paste">Paste</string>
+    <string name="voice">Read text by voice</string>
+    <string name="stop_voice">Stop voice</string>
+    <string name="select_dropdown">▼ Select ▼</string>
+
+    <!-- Notifications -->
+    <string name="channel_name">GitHub Repository Viewer</string>
+    <string name="channel_description">Notifications from Offline AI Launcher application</string>
+    <string name="warning_label">Warning</string>
+    <string name="notifications_window_label">In order for application to work properly, you must allow notifications. Current notification: %s</string>
+    <string name="settings_label">Settings</string>
+
+    <!-- Auth Biometric -->
+    <string name="auth_biometric_scanner_description">Use Biometric to unlock the app</string>
+    <string name="auth_biometric_scanner_title">Authentication</string>
+    <string name="auth_biometric_scanner_failed">Fingerprint not recognized.</string>
+    <string name="auth_biometric_scanner_many_attempts">Too many attempts. Please try again later.</string>
+
+    <!-- Auth Enable biometric -->
+    <string name="enable_biometric_title">Enable biometrics</string>
+    <string name="enable_biometric_for_faster_login_description">Would you like to enable biometric login?</string>
+    <string name="enable_biometric_for_faster_transactions_and_in_app_actions_description">You can turn on biometrics for faster transactions and in-app actions.</string>
+    <string name="enable_biometric_btn_later">Set it up later</string>
+    <string name="enable_biometric_btn_enable">Enable</string>
+
+    <!-- Application settings -->
+    <string name="text_about_title">
+GitHub Repository Viewer\n
+Version %1$s
+    </string>
+
+    <string name="title_hugging_face_token">To access some models in the HuggingFace repository, a token is required.\n
+You can generate a token on the page\n
+https://huggingface.co/settings/tokens</string>
+    <string name="hint_hugging_face_token">HuggingFace Repository Token</string>
+
+    <!-- Prompt  settings -->
+    <string name="hint_prompt_title">Prompt</string>
+    <string name="prompt_settings_description">Prompt is used before the first message in a dialogue with a model.\n\n
+        Write what role the model should be in, how to respond, and other parameters.</string>
+
+    <!-- Template  settings -->
+    <string name="hint_template_first">Template for first message</string>
+    <string name="hint_template">Template</string>
+    <string name="hint_top_generation_key_worlds">Stop generation key worlds, separator is ,</string>
+    <string name="hint_model_name_key_worlds">Model name key worlds, separator is ,</string>
+    <string name="hint_replace_worlds">Replace key worlds, ORIGINAL=>NEW, separator is ,</string>
+    <string name="template_settings_description">Template for first message:\nA prompt is required in the first message in the template.\n\n
+Template:\nA template is used to format the request. Different models have different templates.\n\n
+Within a single dialog, all messages are added to the dialog history and sent to the model along with the current message, so after the first message, prompt is no longer needed.\n\n
+Stop generation key worlds:\nA keyword is required to stop the generation of the models text, these are different for different models. For multiple values separator is ,\n\n
+Model name key worlds:\nThe Model name key worlds parameter is used to determine which model file the corresponding template is used for. For multiple values separator is ,\n\n
+    Replace key worlds:\nYou can replace any service messages in the response in the format Original message => Message to replace. For multiple values separator is ,</string>
+
+    <!-- Engine settings -->
+    <string name="hint_context_size">Context Size</string>
+    <string name="text_context_size">Maximum number of tokens the model can "remember" at once.\n
+        RAM size affects the context size, recommended values are 2–4 GB RAM - 128 – 256 tokens, 6–8 GB RAM - 256 – 1024 tokens, 12–16 GB RAM - 1024 - 32000 tokens
+    </string>
+
+    <string name="hint_max_answer_size">Max response size</string>
+    <string name="text_max_answer_size">Maximum number of tokens the model can generate in a single response.</string>
+
+    <string name="text_enables_temperature_sampling_this_adds_random">Enables temperature sampling. This adds randomness to token selection.
+Lower values (e.g., 0.5) make output more deterministic, while higher values (e.g., 1.5) increase creativity and diversity.</string>
+    <string name="text_use_temperature">Use Temperature</string>
+    <string name="text_float_value_for_temperature_used_if_use_temp_">Float value for temperature (used if temperature sampling is enabled). Controls randomness.
+1.0 = neutral, 0.7 = conservative, 1.3 = creative.</string>
+    <string name="hint_temperature">Temperature</string>
+
+    <string name="text_enables_topk_sampling_only_the_top_k_most_pro">Enables Top-K sampling. Only the top K most probable tokens are kept at each step. All other tokens are removed before sampling.</string>
+
+    <string name="text_use_topk">Use Top-K</string>
+    <string name="text_integer_value_for_topk_used_if_use_top_k_is_t">Integer value for Top-K. Used if use_top_k is true. Specifies how many top tokens are kept.</string>
+    <string name="hint_top_k">Top K</string>
+    <string name="text_enables_topp_sampling_also_known_as_nucleus_s">Enables Top-P sampling, also known as nucleus sampling. Tokens are selected from the smallest possible set whose total probability is greater than or equal to p (for example, 0.9). It provides a balance between diversity and relevance.</string>
+
+    <string name="text_use_topp">Use Top-P</string>
+    <string name="text_float_value_for_topp_used_if_use_top_p_is_tru">Float value for Top-P. Used if use_top_p is true. Represents the cumulative probability threshold (e.g., 0.9).</string>
+    <string name="hint_top_p">Top P</string>
+    <string name="text_enables_minp_filtering_any_token_with_probabi">Enables Min-P filtering. Any token with probability lower than the min_p value will be excluded from sampling. This is a hard probability threshold.</string>
+
+    <string name="text_use_minp">Use Min-P</string>
+    <string name="text_float_value_for_minp_used_if_use_min_p_is_tru">Float value for Min-P. Used if use_min_p is true. Tokens with lower probability are excluded.</string>
+    <string name="hint_min_p">Min P</string>
+    <string name="text_enables_typical_sampling_this_method_prefers_">Enables typical sampling. This method prefers tokens with a surprisal (unexpectedness) close to the average value. It avoids both too predictable and too rare tokens.</string>
+
+    <string name="text_use_typical">Use Typical P</string>
+    <string name="text_float_value_for_typical_sampling_used_if_use_">Float value for typical sampling. Used if use_typical is true. Defines how close tokens must be to average entropy.</string>
+    <string name="hint_typical_p">Typical P</string>
+    <string name="text_enables_extended_temperature_sampling_tempext">Enables extended temperature sampling (TempExt). This adjusts the temperature dynamically using additional parameters like delta and exponent. It allows finer control over the probability distribution.</string>
+
+    <string name="text_use_tempext">Use TempExt</string>
+    <string name="text_float_temperature_value_used_in_tempext_simil">Float temperature value used in TempExt. Similar to temp but for extended variant.</string>
+    <string name="hint_temp_ext_temp">Temp Ext Temp</string>
+    <string name="text_float_value_used_in_tempext_a_delta_added_to_">Float value used in TempExt. A delta added to adjust temperature dynamically.</string>
+    <string name="hint_temp_ext_delta">Temp Ext Delta</string>
+    <string name="text_float_exponent_value_used_in_tempext_controls">Float exponent value used in TempExt. Controls how sharply probabilities are reshaped.</string>
+    <string name="hint_temp_ext_exponent">Temp Ext Exponent</string>
+    <string name="text_enables_xtc_sampling_this_is_an_experimental_">Enables XTC sampling. This is an experimental method that combines thresholding, temperature, and randomness. Its useful for research and custom sampling strategies.</string>
+
+    <string name="text_use_xtc">Use XTC</string>
+    <string name="text_float_probability_threshold_for_xtc_sampling">Float probability threshold for XTC sampling.</string>
+    <string name="hint_xtc_p">Xtc P</string>
+    <string name="text_float_temperature_used_in_xtc_sampling">Float temperature used in XTC sampling.</string>
+    <string name="hint_xtc_t">Xtc T</string>
+    <string name="text_integer_seed_for_randomness_in_xtc_helps_repr">Integer seed for randomness in XTC. Helps reproduce results.</string>
+    <string name="hint_xtc_seed">Xtc Seed</string>
+    <string name="text_enables_topn_sigma_filtering_this_selects_tok">Enables Top-N Sigma filtering. This selects tokens whose probabilities are higher than the average plus a number of standard deviations. It filters out statistical outliers.</string>
+
+    <string name="text_use_topn_sigma">Use Top-N Sigma</string>
+    <string name="text_float_value_used_in_topn_sigma_specifies_how_">Float value used in Top-N Sigma. Specifies how many standard deviations above the mean are required to include a token.</string>
+    <string name="hint_top_n_sigma_n">Top N Sigma N</string>
+
+    <string name="text_final_sampling_method_used_mirostat_v1_adapti">Final sampling method used:
+mirostat_v1 — adaptive entropy sampling with feedback,
+mirostat_v2 — improved control of entropy,
+dist — softmax-based probabilistic sampling,
+greedy — always pick the most probable token.</string>
+
+
+    <string name="text_mirostat_v1">Mirostat v1</string>
+    <string name="text_mirostat_v2">Mirostat v2</string>
+    <string name="text_dist">Dist</string>
+    <string name="text_greedy">Greedy</string>
+
+    <string name="text_integer_value_size_of_the_vocabulary_used_for">Integer value. Size of the vocabulary used for Mirostat V1 calculations.</string>
+    <string name="hint_mirostat_v_1_n_vocab">Mirostat V 1 N Vocab</string>
+    <string name="text_integer_seed_for_mirostat_v1_random_number_ge">Integer seed for Mirostat V1 random number generator.</string>
+    <string name="hint_mirostat_v_1_seed">Mirostat V 1 Seed</string>
+    <string name="text_float_value_target_entropy_surprisal_for_miro">Float value. Target entropy (surprisal) for Mirostat V1. Controls how surprising outputs are on average.</string>
+    <string name="hint_mirostat_v_1_tau">Mirostat V 1 Tau</string>
+    <string name="text_float_learning_rate_adaptation_speed_for_miro">Float learning rate (adaptation speed) for Mirostat V1. Controls how quickly the sampler adjusts to reach the target entropy.</string>
+    <string name="hint_mirostat_v_1_eta">Mirostat V 1 Eta</string>
+    <string name="text_integer_size_of_the_error_buffer_in_mirostat_">Integer. Size of the error buffer in Mirostat V1. Affects stability of adaptation.</string>
+    <string name="hint_mirostat_v_1_m">Mirostat V 1 M</string>
+    <string name="text_integer_seed_for_mirostat_v2">Integer seed for Mirostat V2.</string>
+    <string name="hint_mirostat_v_2_seed">Mirostat V 2 Seed</string>
+    <string name="text_float_target_entropy_for_mirostat_v2">Float target entropy for Mirostat V2.</string>
+    <string name="hint_mirostat_v_2_tau">Mirostat V 2 Tau</string>
+    <string name="text_float_adaptation_speed_for_mirostat_v2">Float adaptation speed for Mirostat V2.</string>
+    <string name="hint_mirostat_v_2_eta">Mirostat V 2 Eta</string>
+    <string name="hint_dist_seed">Dist Seed</string>
+    <string name="text_dist_seed">integer value used to make the dist sampler deterministic by controlling the random number generator.</string>
+    <string name="text_number_of_tokens_in_a_batch_this_is_the_size_">Number of tokens in a batch. This is the size of the input array with tokens that will be processed by the model in one step (batch size by tokens).</string>
+    <string name="hint_n_tokens">N Tokens</string>
+    <string name="text_embedding_size_usually_corresponds_to_the_mod">Embedding size, usually corresponds to the model input size. For example, for LLaMA 7B it is 4096. 0 = Auto</string>
+    <string name="hint_embd">Embd</string>
+    <string name="text_maximum_number_of_independent_sequences_in_a_">Maximum number of independent sequences in a batch. Used for multi-sequence generation (batching several queries simultaneously)</string>
+    <string name="hint_n_seq_max">N Seq Max</string>
+    <string name="application_settings_title">Application settings</string>
+    <string name="huggingface_repository_token">HuggingFace repository token</string>
+    <string name="manage_application_settings">Manage application settings</string>
+    <string name="opy_application_settings_to_clipboard">Сopy application settings to clipboard</string>
+    <string name="send_application_settings">Send application settings</string>
+    <string name="paste_application_settings_from_clipboard">Paste application settings from clipboard</string>
+    <string name="restore_default">Restore default</string>
+    <string name="restore_default_application_settings">Restore default application settings</string>
+    <string name="clear_chat_history">Clear chat history</string>
+    <string name="resources_monitor">Resources monitor</string>
+    <string name="dialog_history">Dialog history</string>
+    <string name="download_status">Download status</string>
+    <string name="author">Author:</string>
+    <string name="down">▼</string>
+    <string name="plus">+</string>
+    <string name="minus">─</string>
+    <string name="pipeline">Pipeline:</string>
+    <string name="filter">Filter:</string>
+    <string name="refresh">Refresh</string>
+    <string name="settings_presets">Settings presets</string>
+    <string name="preset_name">Preset name</string>
+    <string name="select_preset">▼ Select preset ▼</string>
+    <string name="delete_from_presets">Delete from presets</string>
+    <string name="save_to_settings_presets">Save to settings presets</string>
+    <string name="restore_current_preset_to_default">Restore current preset to default</string>
+    <string name="engine_settings">Engine settings</string>
+    <string name="save_as_current_engine_settings">Save as current engine settings</string>
+    <string name="settings">Settings</string>
+    <string name="application_settings">Application settings</string>
+    <string name="prompt_settings">Prompt settings</string>
+    <string name="template_settings">Template settings</string>
+    <string name="llama_cpp_engine_settings">LLama.cpp engine settings</string>
+    <string name="chat">Chat</string>
+    <string name="new_chat">New chat</string>
+    <string name="message">Message</string>
+    <string name="clear_text">Clear text</string>
+    <string name="paste_text">Paste text</string>
+    <string name="select_model">Select model</string>
+    <string name="folder">Folder:</string>
+    <string name="folder_with_attrs">Folder: %1$s</string>
+    <string name="download_models">Download models</string>
+    <string name="all_dialogs_click_to_open">All dialogs, click to open</string>
+    <string name="model_info">Model info</string>
+    <string name="prompt_presets">Prompt presets</string>
+    <string name="save_to_prompt_presets">Save to prompt presets</string>
+    <string name="current_prompt">Current prompt</string>
+    <string name="save_as_current_prompt">Save as current prompt</string>
+    <string name="template_presets">Template presets</string>
+    <string name="restore_default_preset">Restore default preset</string>
+    <string name="save_to_presets">Save to presets</string>
+    <string name="error_message">Error message:</string>
+    <string name="model_message">Model message:</string>
+    <string name="user_message">User message:</string>
+    <string name="show_info">Show info</string>
+    <string name="load">Run model</string>
+    <string name="open_repo">Open repo</string>
+    <string name="download">Download</string>
+    <string name="refreshing">Refreshing...</string>
+    <string name="pipeline_deleted">Pipeline deleted</string>
+    <string name="search_deleted">Search deleted</string>
+    <string name="pipeline_added_to_presets_list">Pipeline %1$s added to presets list</string>
+    <string name="search_added_to_presets_list">Search %1$s added to presets list</string>
+    <string name="author_added_to_presets_list">Author %1$s added to presets list</string>
+    <string name="filter_added_to_presets_list">Filter %1$s added to presets list</string>
+    <string name="are_you_sure_you_want_to_remove_author_from_presets_list">Are you sure you want to remove author %1$s from presets list?</string>
+    <string name="are_you_sure_you_want_to_remove_filter_from_presets_list">Are you sure you want to remove filter %1$s from presets list?</string>
+    <string name="are_you_sure_you_want_to_remove_pipeline_from_presets_list">Are you sure you want to remove pipeline %1$s from presets list?</string>
+    <string name="are_you_sure_you_want_to_remove_search_from_presets_list">Are you sure you want to remove search %1$s from presets list?</string>
+    <string name="author_deleted">Author deleted</string>
+    <string name="filter_deleted">Filter deleted</string>
+    <string name="model">Model: %1$s</string>
+    <string name="downloads_likes">Downloads: %1$s, Likes: %2$s, Last modified: %3$s</string>
+    <string name="get_models_data_error">Get models data error: %1$s</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="not_model">Not model</string>
+    <string name="download_model">Download model</string>
+    <string name="downloading">Downloading...</string>
+    <string name="downloading_click_to_cancel">Downloading... (click to cancel)</string>
+    <string name="load_model">Load</string>
+    <string name="loading">Loading...</string>
+    <string name="unload_model">Unload</string>
+    <string name="in_generation">In generation...</string>
+    <string name="chat_with_model">Chat with model: %1$s</string>
+    <string name="do_you_want_to_close_application">Do you want to close application?</string>
+    <string name="copy_to_clipboard">Copy to clipboard</string>
+    <string name="empty">-- empty --</string>
+    <string name="file">File: %1$s</string>
+    <string name="engine">Engine: %1$s</string>
+    <string name="template">Template: %1$s</string>
+    <string name="template_default_please_setup_template_in_settings">Template: Default, please setup template in settings</string>
+    <string name="are_you_sure_you_want_to_delete_file">Are you sure you want to delete file %1$s?</string>
+    <string name="dialog_deleted">Dialog deleted</string>
+    <string name="are_you_sure_you_want_to_delete_dialog">Are you sure you want to delete dialog?</string>
+    <string name="saved">Saved</string>
+    <string name="settings_coped">Settings coped</string>
+    <string name="clipboard_is_empty">Clipboard is empty</string>
+    <string name="error_with_param">Error: %1$s</string>
+    <string name="settings_pasted">Settings pasted</string>
+    <string name="chat_history_cleared">Chat history cleared</string>
+    <string name="error_restoring_default_settings">Error restoring default settings</string>
+    <string name="default_settings_restored">Default settings restored</string>
+    <string name="are_you_sure_you_want_to_clear_chat_history">Are you sure you want to clear chat history?</string>
+    <string name="are_you_sure_you_want_to_restore_default_settings_all_settings_will_be_erased_downloaded_models_will_not_be_erased">Are you sure you want to restore default settings? All settings will be erased, downloaded models will not be erased.</string>
+    <string name="please_enter_name_for_preset">Please enter name for preset</string>
+    <string name="saved_as_to_presets">Saved as %1$s to presets</string>
+    <string name="you_can_t_remove_default_preset">You can\'t remove default preset</string>
+    <string name="preset_with_name_not_found">Preset with name %1$s not found</string>
+    <string name="are_you_sure_you_want_to_remove_from_presets_list">Are you sure you want to remove %1$s from presets list?</string>
+    <string name="preset_with_name_not_found_in_default_preset_contains">Preset with name %1$s not found in default preset, contains: %2$s</string>
+    <string name="are_you_sure_you_want_to_restore_default_values_for_preset">Are you sure you want to restore default values for preset %1$s?</string>
+    <string name="please_enter_prompt">Please enter prompt</string>
+    <string name="prompt_saved_as_to_presets">Prompt saved as %1$s to presets</string>
+    <string name="prompt_saved">Prompt saved</string>
+    <string name="please_enter_model_name_key_worlds">Please enter model name key worlds</string>
+    <string name="please_enter_template_with_prompt">Please enter template with prompt</string>
+    <string name="please_enter_template_without_prompt">Please enter template without prompt</string>
+    <string name="template_saved_as_to_presets">Template saved as %1$s to presets</string>
+    <string name="get_all_files_error">Get all files error: %1$s</string>
+    <string name="model_not_selected_select_model_first">Model not selected, select model first</string>
+    <string name="model_file_not_exist">Model file %1$s not exist</string>
+    <string name="unknown_engine">Unknown engine</string>
+    <string name="mediapipe_engine_error_model_is_null">MediaPipe engine error: model is null</string>
+    <string name="mediapipe_engine_error">MediaPipe engine error: %1$s</string>
+    <string name="llama_cpp_engine_error_model_is_null">LLama.cpp engine error: model is null</string>
+    <string name="llama_cpp_engine_error">LLama.cpp engine error: %1$s</string>
+    <string name="loan_engine_first">Loan engine first</string>
+    <string name="no_template_found_for_current_model">No template found for current model</string>
+    <string name="download_canceled">Download canceled</string>
+    <string name="language_settings">Language: %1$s</string>
+    <string name="change_language">▼ Select Language ▼</string>
+    <string name="start_dialog">Start dialog</string>
+    <string name="start_dialog_with_a_model_and_it_will_appear_in_the_history">Start dialog with a model and it will appear in the history</string>
+    <string name="dialogs_not_found">Dialogs not found</string>
+    <string name="change_search_conditions_and_refresh">Change search conditions and refresh</string>
+    <string name="models_not_found">Models not found</string>
+    <string name="download_the_models_to_start_using_them_or_copy_them_to_the_application_folder">Download the models to start using them or copy them to the application folder</string>
+    <string name="sort">Sort: %1$s</string>
+    <string name="close_filter">▲ Close filter ▲</string>
+    <string name="open_filter">▼ Open filter ▼</string>
+    <string name="memory_settings">Memory settings</string>
+    <string name="threads_for_initialization">Threads for initialization</string>
+    <string name="number_of_threads_for_initialization">Number of threads for initialization</string>
+    <string name="number_of_threads_for_generation">Number of threads for generation</string>
+    <string name="threads_for_generation">Threads for generation</string>
+    <string name="available_ram_threshold">Available RAM threshold</string>
+    <string name="available_ram_threshold_less_than_in_mb">Available RAM threshold less than in MB</string>
+    <string name="show_alarm_on_available_ram_threshold">Show alarm on available RAM threshold</string>
+    <string name="unload_engine_on_available_ram_threshold">Unload engine on available RAM threshold</string>
+    <string name="engine_alailable_ram_threshold">Engine alailable RAM threshold</string>
+    <string name="engine_alailable_ram_threshold_less_than_in_mb">Engine alailable RAM threshold less than in MB</string>
+    <string name="unload_engine_on_engine_alailable_ram_threshold">Unload engine on engine alailable RAM threshold</string>
+    <string name="native_memory_thresholdr">Native memory thresholdr</string>
+    <string name="native_memory_threshold_more_than_mb">Native memory threshold more than MB</string>
+    <string name="show_alarm_on_native_memory_threshold">Show alarm on native memory threshold</string>
+    <string name="unload_engine_on_native_memory_threshold">Unload engine on native memory threshold</string>
+    <string name="process_memory_thresholdr">Process memory thresholdr</string>
+    <string name="process_memory_threshold_more_than_mb">Process memory threshold more than MB</string>
+    <string name="show_alarm_on_process_memory_threshold">Show alarm on process memory threshold</string>
+    <string name="unload_engine_on_process_memory_threshold">Unload engine on process memory threshold</string>
+    <string name="system_memory_threshold_alarm">System memory threshold alarm</string>
+    <string name="show_alarm_on_system_memory_threshold_alarm">Show alarm on system memory threshold alarm</string>
+    <string name="unload_engine_on_memory_threshold_alarm">Unload engine on memory threshold alarm</string>
+    <string name="alert_message_interval_seconds">Alert message interval seconds</string>
+    <string name="print_free_ram_on_screens">Print free ram on screens</string>
+    <string name="available_ram_thresholdr_now_available_mb">Available RAM thresholdr, now available %1$s MB</string>
+    <string name="native_memory_thresholdr_now_memory_is_mb">Native memory thresholdr, now memory is %1$s MB</string>
+    <string name="process_memory_thresholdr_now_memory_is_mb">Process memory thresholdr, now memory is %1$s MB</string>
+    <string name="system_memory_threshold_alarm_is_mb">System memory threshold alarm, is %1$s MB</string>
+    <string name="continue_dialog">Continue dialog</string>
+    <string name="requires_voice_permission">Voice recognition requires voice permission, allow permission or go to the system settings of the application and allow it there</string>
+    <string name="mediapipe_backend">Backend runs AI models on-device using MediaPipe Tasks with minimal setup. It supports two modes:\n
+CPU: Slower but works on all devices with lower power usage\n
+GPU: Faster, ideal for image-heavy models if supported by the device.</string>
+    <string name="use_max_top_k">Use Max Top-K is a parameter that limits the number of top predictions returned by the model. When enabled, it returns only the top-K results based on confidence scores, improving performance and reducing unnecessary output.</string>
+    <string name="max_top_k">Max Top-K is a parameter that defines the maximum number of top results the model should return. It controls how many of the most confident predictions are included in the output, helping to focus on the most relevant results.</string>
+    <string name="use_max_top_k_title">Use Max Top-K</string>
+    <string name="max_top_k_hint">Max Top-K</string>
+    <string name="current_backend">Current backend: %1$s</string>
+    <string name="mediapipe_engine_settings">MediaPipe engine settings</string>
+    <string name="use_random_seed">Use Random Seed is a flag that determines whether the model should use a fixed random seed during generation. When enabled, it ensures repeatable results for the same input.</string>
+    <string name="use_random_seed_title">Use Random Seed</string>
+    <string name="random_seed">Random Seed is a number used to initialize the random number generator in the model. Setting this value allows the model to produce consistent and reproducible outputs across runs.</string>
+    <string name="random_seed_title">Random Seed</string>
+    <string name="select_backend">▼ Select backend ▼</string>
+    <string name="voice_settings">Voice settings</string>
+    <string name="automatically_speak_answers_after_generation">Automatically speak answers after generation</string>
+    <string name="automatically_send_text_to_model_after_voice_recognition_is_complete">Automatically send text to model after voice recognition is complete</string>
+    <string name="selected_voice_speed">Voice speed: %1$s</string>
+    <string name="authorize_on_hugging_face_dialog">The model is in a repository on Hugging Face, which requires authorization to access. Start authorization?</string>
+    <string name="quant_speed_precision_size">Quantization: Speed %1$s Precision %2$s Size %3$s</string>
+    <string name="approximate_size_for_q4_version">Approximate size for Q4 version: %1$s</string>
+    <string name="voice_input">Voice</string>
+    <string name="size_of_model">Size: %1$s</string>
+    <string name="llama_cpp_engine_debug_console">LLama.cpp engine debug console</string>
+    <string name="debug_settings">Debug settings</string>
+    <string name="print_logs_from_engine">Print logs from engine</string>
+    <string name="view_mode">View mode: %1$s</string>
+    <string name="view_mode_title">View mode</string>
+    <string name="view_mode_light">Light</string>
+    <string name="view_mode_night">Night</string>
+    <string name="view_mode_by_system">By System</string>
+    <string name="you_can_not_replace_default_preset">You can not replace default preset</string>
+    <string name="preset_removed">Preset %1$s removed</string>
+    <string name="restored_default_value_for">Restored default value for %1$s</string>
+    <string name="this_is_an_experimental_application">This is an experimental application, it uses new code that has not undergone extensive testing, because of this some functions may not work reliably.</string>
+    <string name="review_application_on_google_play">Review application on Google Play</string>
+    <string name="review_application">Review application</string>
+    <string name="token">Token: %1$s</string>
+    <string name="repository_stars">Repository stars: %1$d</string>
+    <string name="repository_name">Repository name: %1$s</string>
+    <string name="last_commit_hash">Last commit hash: %1$s</string>
+    <string name="last_commit_message">Last commit message: %1$s</string>
+    <string name="last_commit_date">Last commit date: %1$s</string>
+    <string name="last_commit_author">Last commit author: %1$s</string>
+    <string name="repository_language">Language: %1$s</string>
+    <string name="repository_owner_login">Owner login: %1$s</string>
+    <string name="repository_description">Description: %1$s</string>
+    <string name="repository_pushed_at">Pushed at: %1$s</string>
+    <string name="wait_for_update">wait for update</string>
+
+</resources>
