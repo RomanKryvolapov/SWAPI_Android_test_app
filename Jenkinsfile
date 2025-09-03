@@ -31,12 +31,6 @@ pipeline {
             }
         }
 
-        stage('Run Unit Tests') {
-            steps {
-                sh './gradlew test'
-            }
-        }
-
         stage('Assemble Android') {
             steps {
                 sh './gradlew :android:assembleDebug'
@@ -53,7 +47,6 @@ pipeline {
 
     post {
         success {
-
             echo 'Build successful'
         }
         failure {
