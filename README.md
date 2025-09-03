@@ -21,3 +21,5 @@ In the future, [Compose Multiplatform](https://www.jetbrains.com/compose-multipl
 Now I did not use it, since in a short period of time it was not possible to make a working pagination with correct updating by search word
 
 Time spent: 15.28 - 19.39 with 2 breaks, totaling about 30 minutes
+
+For Jenkins- check /jenkins folder

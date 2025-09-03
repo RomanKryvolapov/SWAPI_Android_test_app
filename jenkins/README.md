@@ -4,15 +4,12 @@ This folder contains [Jenkinsfile Runner](https://github.com/jenkinsci/jenkinsfi
 
 ## Check with
 
-PS C:\Program Files\Jenkins\jenkinsfile-runner-1.0-beta-32\bin> .\jenkinsfile-runner.bat `
->>   --jenkins-war "C:\Program Files\Jenkins\jenkinsfile-runner-1.0-beta-32\jenkins.war" `
->>   --plugins "C:\Program Files\Jenkins\plugins" `
->>   --file "C:\Users\Roman\AndroidStudioProjects\SWAPI\Jenkinsfile"
+PS C:\Program Files\Jenkins\jenkinsfile-runner-1.0-beta-32\bin> .\jenkinsfile-runner.bat --jenkins-war "C:\Program Files\Jenkins\jenkinsfile-runner-1.0-beta-32\jenkins.war" --plugins "C:\Program Files\Jenkins\plugins" --file "C:\Users\Roman\AndroidStudioProjects\SWAPI\Jenkinsfile"
 
 ## Result: 
 
-Started
-Resume disabled by user, switching to high-performance, low-durability mode.
-[Pipeline] Start of Pipeline
-[Pipeline] End of Pipeline
-Finished: SUCCESS
+Started<br>
+Resume disabled by user, switching to high-performance, low-durability mode.<br>
+[Pipeline] Start of Pipeline<br>
+[Pipeline] End of Pipeline<br>
+Finished: SUCCESS<br>
