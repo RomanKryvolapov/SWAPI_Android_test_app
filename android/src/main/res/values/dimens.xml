@@ -5,23 +5,15 @@
     <dimen name="margin_1">1dp</dimen>
     <dimen name="margin_2">2dp</dimen>
     <dimen name="margin_4">4dp</dimen>
-    <dimen name="margin_5">5dp</dimen>
     <dimen name="margin_6">6dp</dimen>
     <dimen name="margin_8">8dp</dimen>
-    <dimen name="margin_10">10dp</dimen>
     <dimen name="margin_12">12dp</dimen>
     <dimen name="margin_16">16dp</dimen>
     <dimen name="margin_18">18dp</dimen>
-    <dimen name="margin_20">20dp</dimen>
     <dimen name="margin_24">24dp</dimen>
     <dimen name="margin_32">32dp</dimen>
     <dimen name="margin_36">36dp</dimen>
-    <dimen name="margin_42">42dp</dimen>
-    <dimen name="margin_48">48dp</dimen>
-    <dimen name="margin_56">56dp</dimen>
     <dimen name="margin_64">64dp</dimen>
-    <dimen name="margin_80">80dp</dimen>
-    <dimen name="margin_96">96dp</dimen>
     <dimen name="margin_160">160dp</dimen>
 
     <item name="gradient_top" type="dimen">0.9</item>
@@ -41,8 +33,5 @@
     <dimen name="text_size_large">18sp</dimen>
 
     <!-- Pass Code Buttons -->
-    <dimen name="pass_code_button_max_size">90dp</dimen>
-    <dimen name="pass_code_button_min_size">64dp</dimen>
-    <dimen name="pass_code_keyboard_max_height">350dp</dimen>
 
 </resources>

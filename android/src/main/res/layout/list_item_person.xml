@@ -28,7 +28,6 @@
         tools:text="@string/lorem_ipsum_size_6" />
 
     <androidx.appcompat.widget.AppCompatImageButton
-        android:id="@+id/btnClear"
         style="@style/ImageButtonStyle"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
